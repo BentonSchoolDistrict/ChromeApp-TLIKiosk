@@ -11,6 +11,9 @@ Note: This app is intended to be run via single-app kiosk mode as provided via G
  - Internet Access
  - TLI Testing Credentials
 
+<B></I>If you find issues, see if you can fix them and submit a pull request with the changes or file an issue report on GitHub.</I></B>
+https://github.com/BentonSchoolDistrict/ChromeApp-TLIKiosk
+
 <B>To Install:</B>
    1. Download TLIKiosk.zip
    2. Extract
@@ -60,8 +63,6 @@ Note: This app is intended to be run via single-app kiosk mode as provided via G
   10. Add
   11. Save
   12. Wait until your Chromebook refresh's policy.  ( or   Chrome://policy  > reload > then reboot (maybe logout?))
-  
- <B></I>If you find issues, see if you can fix them and submit a pull request with the changes or file an issue report on GitHub.</I></B>
- https://github.com/BentonSchoolDistrict/ChromeApp-TLIKiosk
+
  
  
