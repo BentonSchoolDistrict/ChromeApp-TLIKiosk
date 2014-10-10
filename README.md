@@ -38,3 +38,4 @@ Note: This app is intended to be run via single-app kiosk mode as provided via G
  <B></I>If you find issues, see if you can fix them and submit a pull request with the changes or file an issue report on GitHub.</I></B>
  https://github.com/BentonSchoolDistrict/ChromeApp-TLIKiosk
  
+ 
