@@ -3,10 +3,9 @@
 // Handles background jobs for the app
 //
 // ChromeApp:  BPSD - TLI KIOSK
-// Author:  Brian S. Lowrance  brian@bentonschools.org
-// Version: 1.0.0.8
+// Author:  Brian S. Lowrance
+// Version: 1.0.0.9
 //
-// Copyright - Benton School District - All rights reserved
 /////////////////////////////////////////////////////////////////////
 
 var appWin = null;

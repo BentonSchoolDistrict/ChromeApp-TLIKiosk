@@ -3,16 +3,15 @@
 // Handles foreground application
 //
 // ChromeApp:  BPSD - TLI KIOSK
-// Author:  Brian S. Lowrance  brian@bentonschools.org
-// Version: 1.0.0.8
+// Author:  Brian S. Lowrance
+// Version: 1.0.0.9
 //
-// Copyright - Benton School District - All rights reserved
 /////////////////////////////////////////////////////////////////////
 
 window.onload = function() {
 	var debug = false;  // Normal operation
 	//var debug = true;  //Enables Debug button to output sites HTML code for review.  Disables Chromebook only restriction.
-	var debugurl = "http://test.tli.net"; //"http://start.bentonschools.org";  //URL to launch when in debug mode.
+	var debugurl = "http://test.tli.net"; //URL to launch when in debug mode.
 	var normalurl = "http://test.tli.net";  //URL to launch when not running in debug mode.
 	var debugshowing = false; //Toggle used when the debug button is pressed.
 	var predebugdata = "";
