@@ -2,7 +2,6 @@ ChromeApp-TLIKiosk
 ==================
 
 Provides a facility to launch TLI Testing as a single-app kiosk on a Chromebook.
-
 <I>** This is a 3rd party product for accessing but is not provided by The Learning Institute (TLI), tli.net.</B>
 
 Note: This app is intended to be run via single-app kiosk mode as provided via Google Chromebook management only.
@@ -35,6 +34,33 @@ Note: This app is intended to be run via single-app kiosk mode as provided via G
    8. Click Reload for this application
    9. Click Launch
    
+<B>To rename the app, edit the references in:</B>
+  - application.html
+  - background.js
+  - manifest.json
+   
+<B>Upload to your Chrome Web Store</B>
+  1. Be sure you have disabled debug mode, unless you intend to publish / use it
+  2. Go to: https://chrome.google.com/webstore/developer/dashboard?hl=en&gl=US  (Login to your Google Apps domain)
+  3. Add New item  (For your own Google Apps domain to use the app, you do not have to pay the $5 fee)
+  4. Upload the zip file, create a description, choose the icon_128.png for the icon (edit for your environment), choose screenshot1.png for screenshots (take your own if you like), Choose the SmallTile.png, Category "Test Preparation" (or any of them you like).  Region: United States, Visibility: Unlisted
+  5. Preview changes / Publish changes
+  6. When in the Chrome Webstore developer dashboard, click More info next to your uploaded project to obtain your Item ID for use when setting up Single App configuration in Chrome Device Management.
+
+<B>To setup in Chrome Single-App Kiosk</B>
+  1. Go to:  https://admin.google.com (Login to your Google Apps domain)
+  2. Device Management
+  3. Chrome
+  4. Device Settings
+  5. Choose the Organization to apply to
+  6. Scroll down to Kiosk Settings
+  7. Choose Allow Single App Kiosk
+  8. Click Manage Kiosk Applications
+  9. Look under Domain Apps, if it's not there (has it finished publishing?), Go to Specify a Custom App, enter the App ID you received from the Chrome Web Store Developer Dashboard here and enter the following for URL: https://clients2.google.com/service/update2/crx
+  10. Add
+  11. Save
+  12. Wait until your Chromebook refresh's policy.  ( or   Chrome://policy  > reload > then reboot (maybe logout?))
+  
  <B></I>If you find issues, see if you can fix them and submit a pull request with the changes or file an issue report on GitHub.</I></B>
  https://github.com/BentonSchoolDistrict/ChromeApp-TLIKiosk
  
