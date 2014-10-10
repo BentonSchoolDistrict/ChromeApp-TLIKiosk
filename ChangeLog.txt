@@ -1,0 +1,17 @@
+Application:  BPSD - TLI Kiosk
+Author:  Brian S. Lowrance  brian@bentonschools.org
+
+[1.0.0.7] 10/7/2014
+First published version
+
+[1.0.0.8] - 10/8/2014
+Final submission page of the TLI test required the user to click OK or CANCEL on a Javascript prompt which is not allowed in a Chromeapp.
+Detect prompt, convert to our own handler that we can display / respond with in app.
+Cleaned up some buttons / CSS
+
+[1.0.0.9] - 10/9/2014
+Code cleanup
+Additional commenting
+Improved Debug function (2nd webview with higer z-index), when debug mode is enabled.
+z-index's:  Regular webview: 1, logout button: 2, Prompt + Prompt buttons: 3, Debug window: 9, Debug button: 10.
+Larger logout button with black text instead of white.
