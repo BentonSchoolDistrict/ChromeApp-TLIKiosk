@@ -64,5 +64,7 @@ https://github.com/BentonSchoolDistrict/ChromeApp-TLIKiosk
   11. Save
   12. Wait until your Chromebook refresh's policy.  ( or   Chrome://policy  > reload > then reboot (maybe logout?))
 
- 
- 
+ <i>
+ Copyright Brian S. Lowrance - Benton School District
+ GNU GENERAL PUBLIC LICENSE Version 2
+ </i>

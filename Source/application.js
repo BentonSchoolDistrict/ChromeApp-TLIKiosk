@@ -6,6 +6,8 @@
 // Author:  Brian S. Lowrance
 // Version: 1.0.0.9
 //
+// Copyright Brian S. Lowrance - Benton School District
+// GNU GENERAL PUBLIC LICENSE Version 2 -->
 /////////////////////////////////////////////////////////////////////
 
 window.onload = function() {
