@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>BPSD - TLI Kiosk</title>
+    <script src="application.js"></script>
+    <link rel="stylesheet" type="text/css" href="application.css">
+  </head>
+
+
+  <body>
+	<div id="MsgFieldDiv">
+		<center><p id="MsgFieldTxt">Loading TLI testing site, please wait...</p></center>
+	</div>
+	<div id="PromptDiv" class="prompt">
+		<center><p id="PromptTxt" class="PromptTxt">...</p></center>
+		<button id="PromptOK" class="PromptOK">OK</button> <button id="PromptCANCEL" class="PromptCANCEL">CANCEL</button>
+	</div>
+	<webview id="MyWebView"></webview>
+	<webview id="DebugWebView"></webview>
+	<button id="debugbutton" class="debug">Debug</button>
+    <button id="logoutbutton" class="logout">Logout</button>
+  </body>
+</html>
