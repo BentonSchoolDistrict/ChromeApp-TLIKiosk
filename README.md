@@ -5,19 +5,26 @@ ChromeApp-TLIKiosk
 <B>WARNING:  May have lots of revisions and bugs. Untested </B>
 <B>WARNING!!!</B>
 
-Provides a facility to launch TLI Testing as a single-app kiosk on a Chromebook.
-<I>** This is a 3rd party product for accessing but is not provided by The Learning Institute (TLI), tli.net.</B>
+Provides a facility to launch TLI Testing (or any other website with it's own navigation controls) as a single-app kiosk on a Chromebook.  
+  
+<I>** This is a 3rd party product for accessing but is not provided by The Learning Institute (TLI), tli.net.</B>  
+  
+Note: This ChromeApp is intended to be run via single-app kiosk mode as provided via Google Chromebook management only.<BR>  
 
-Note: This app is intended to be run via single-app kiosk mode as provided via Google Chromebook management only.
-
+<BR>
 <b>Requirements: </b>
  - Chromebook
  - Internet Access
  - TLI Testing Credentials
-
+  
+<B></I>If you find issues: fork the project, make your changes with comments and test. Finally, submit a Pull request on the Development branch or file an issue report on GitHub.</I></B>  
+ Project repo: https://github.com/BentonSchoolDistrict/ChromeApp-TLIKiosk  
+ How to fork a project: https://help.github.com/articles/fork-a-repo/  
+ How to make a pull request: https://help.github.com/articles/using-pull-requests/  
+  
 <B>To Install:</B>
-   1. Download TLIKiosk.zip
-   2. Extract
+   1. Download TLIKiosk.zip  (or clone the project with <code>git clone https://github.com/BentonSchoolDistrict/ChromeApp-TLIKiosk</code> )
+   2. Extract the zip file
    3. Modify icon_16.png, icon_128.png, and SmallTile.png(I never see SmallTile used, but Google requires it to upload to the webstore) as you like
    3. Launch Chrome
    4. Go to Tools > Extensions
@@ -30,8 +37,8 @@ Note: This app is intended to be run via single-app kiosk mode as provided via G
 <B>To enable debug mode:</B>
    1. Navigate to the extracted folder containing the source contents
    2. Open application.js in your favorite editor (I use Notepad++, but you can use Notepad.exe or any other text editor/IDE you like that supports JavaScript)
-   3. Remove the <B>//</B> before <b>debug = true;</b>
-   4. Add <B>//</B> before <b>debug = false;</b> (Change debugurl = "test.tli.net" if you want to debug using another site)
+   3. Remove the <B>//</B> before <code>debug = true;</code>
+   4. Add <B>//</B> before <code>debug = false;</code> (Change <code>debugurl = "test.tli.net"</code> if you want to debug using another site)
    5. Save
    6. Launch Chrome
    7. Go to Tools > Extension
@@ -64,7 +71,8 @@ Note: This app is intended to be run via single-app kiosk mode as provided via G
   10. Add
   11. Save
   12. Wait until your Chromebook refresh's policy.  ( or   Chrome://policy  > reload > then reboot (maybe logout?))
-  
- <B></I>If you find issues, see if you can fix them and submit a pull request with the changes or file an issue report on GitHub.</I></B>
- https://github.com/BentonSchoolDistrict/ChromeApp-TLIKiosk
- 
+
+ <i>
+ Copyright Brian S. Lowrance - Benton School District
+ GNU GENERAL PUBLIC LICENSE Version 2
+ </i>
