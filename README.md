@@ -1,9 +1,9 @@
 ChromeApp-TLIKiosk
 ==================
-<B>WARNING!!!</B>
-<B>WARNING:  TESTING BRANCH </B>
-<B>WARNING:  May have lots of revisions and bugs. Testing in progress for move to Master branch </B>
-<B>WARNING!!!</B>
+<B>WARNING!!!</B>  
+<B>WARNING:  TESTING BRANCH </B>  
+<B>WARNING:  May have lots of revisions and bugs. Testing in progress for move to Master branch </B>  
+<B>WARNING!!!</B>  
 
 Provides a facility to launch TLI Testing (or any other website with it's own navigation controls) as a single-app kiosk on a Chromebook.  
   
